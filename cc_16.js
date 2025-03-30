@@ -72,3 +72,8 @@ function displayProducts(products) {
    )
 }
 
+// Task 5 Reusable Error Handler
+
+function handleError(error) {
+    console.error("An error has occurred: ", error); // Logs an error message to the console
+}
