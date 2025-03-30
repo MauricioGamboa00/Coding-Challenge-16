@@ -1,0 +1,52 @@
+/*  Adding CSS styling to the product dashboard */
+
+body {
+   font-family: Arial, sans-serif;
+   margin: 0; 
+   padding: 0;
+   background-color: bisque;
+   align-items: center;
+   text-align: center;
+}
+
+/* product Cards */
+
+#product-container {
+    display : flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* product card Style */
+
+.product-card {
+background-color: maroon;
+border-radius: 10px;
+padding: 15px;
+}
+
+/* Styling for product name */
+
+.product-header {
+    font-size: 19px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+/* Styling for product price */
+
+.product-price {
+    font-size: 15px;
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+
+/* Styling for product image */
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
