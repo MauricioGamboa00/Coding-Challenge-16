@@ -47,7 +47,7 @@ function displayProducts(products) {
    firstFiveProducts.forEach(product => { // Loop through the first five products
    
     const productCards = document.createElement('div'); // Creating the product Cards
-    productCards.setAttribute('class','product-card')
+    productCards.setAttribute('class','product-card'); // Setting attributes for product cards
 
     const productName = document.createElement('h3'); // Creating Header element for product name
     productName.setAttribute('class', 'product-header'); // Setting attributes for product name
